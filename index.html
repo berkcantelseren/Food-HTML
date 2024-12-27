@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Tony's Pizza</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome To Tony's Pizza Shop</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about"
+              >About <abbr title="Tony's Pizza Shop">TPS</abbr></a
+            >
+          </li>
+          <li>
+            <a href="#menu">Our Menu</a>
+          </li>
+          <li>
+            <a href="hours.html">Store Hours</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <figure>
+        <img src="img/pizza_and_drink.jpg" alt="Pizza and Wine Image" />
+        <figcaption>
+          <p>Pizza and a Drink 🍕</p>
+        </figcaption>
+      </figure>
+    </header>
+
+    <hr />
+
+    <main>
+      <article id="about">
+        <h2>About <abbr title="Tony's Pizza Shop">TPS</abbr></h2>
+        <p>
+          <abbr title="Tony's Pizza Shop">TPS</abbr> was founded in 2021. Our
+          shop was built from a <b>love of pizzas</b> 🍕🍕🍕. We hope our shop
+          adds a unique and interesting place to our little town.
+        </p>
+
+        <aside>
+          <h3>Pizza Trivia</h3>
+          <details>
+            <summary>
+              Who found about pizza first and when did it happen?
+            </summary>
+            <p>
+              Pizza, as we know it today, originated in Naples, Italy, in the
+              late 18th to early 19th century. Poor working-class Neapolitans
+              began adding tomatoes, introduced to Europe from the Americas, to
+              flatbreads. This innovation led to the modern pizza. The earliest
+              written record of pizza was in <time datetime="997">997</time> AD
+              in Gaeta, Italy, referring to a flatbread. However, its global
+              recognition came in <time datetime="1889">1889</time> when Queen
+              Margherita of Savoy tried a pizza resembling the Italian flag's
+              colors (tomatoes, mozzarella, basil), giving rise to the famous
+              "Margherita pizza."
+            </p>
+          </details>
+        </aside>
+      </article>
+
+      <hr />
+
+      <article id="menu">
+        <table>
+          <caption>
+            Our Pizzas
+          </caption>
+          <thead>
+            <tr>
+              <th>Pizzas</th>
+              <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" rowspan="3">Crisp</th>
+              <td>1</td>
+              <td>$7.50</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>$10</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>$12.50</td>
+            </tr>
+
+            <hr />
+
+            <tr>
+              <th scope="row" rowspan="3">Soft</th>
+              <td>1</td>
+              <td>$8.50</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>$11</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>$13.50</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Fries & Salad $2.5</td>
+            </tr>
+          </tfoot>
+        </table>
+        <br />
+        <p>
+          <a href="#">Back to Top</a>
+        </p>
+      </article>
+    </main>
+    <hr />
+    <footer>
+      <p>Copyright &copy; Tony's Pizza Shop 2024</p>
+    </footer>
+  </body>
+</html>
