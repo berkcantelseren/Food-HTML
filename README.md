@@ -2,7 +2,7 @@
 
 Basic HTML page. Will be updated with semantic css shortly.
 
-Check out the live version of the website here ----> [Tony's Pizza Shop](https://berkcantelseren.github.io/Tonys-Pizza-Shop/)
+Check out the **live** version here !! ----> [Tony's Pizza Shop](https://berkcantelseren.github.io/Tonys-Pizza-Shop/)
 
 This project is a simple pizza shop website built entirely with HTML using semantic HTML elements. It is designed to showcase the offerings of a pizza shop in a clean and accessible manner.
 
